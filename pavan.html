@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header" id="home">
+        <div class="container">
+            <img src="pavan.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Pavan kirity</h1>
+            <p>Python Full Stack Developer | Data Analyst</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Pavan Kirity, As a graduate in Computer Science and Engineering, I am excited to seek a full-time opportunity
+                where I can apply my technical skills in Python, MySQL, HTML, and CSS. I have gained practical
+                experience through internships and projects. To ensure a challenging position in a growing and
+                healthy work environment where I would be able to utilize my skills to the best extent and add
+                value to the organization and my career.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Tools Section -->
+    <section class="tools" id="tools">
+        <div class="container">
+            <h2>Tools</h2>
+            <ul class="skill-list">
+                <li>Python(IDLE)</li>
+                <li>My sql workbecnh</li>
+                <li>Vscode</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Farmer-Consumer Chain</h3>
+                <p>A web application that connects farmers with consumers, offering fresh fruits and vegetables at lower prices. It benefits farmers by increasing their profit margins.</p>
+            </div>
+            <div class="project-item">
+                <h3>Grocery Billing</h3>
+                <p>Calculate total bill for grocery purchases, apply sicounts to the total bill. Provide real-time inventory data to the store owner, track remaining stock and item quantites in the store.</p>
+
+            </div>
+
+            <div class="project-item">
+                <h3>Machine Learning Model for Prediciton of Graduate admissions</h3>
+                <p>Predict student admissions to universities based on GRE, TOEFL and ILETS scores, consider other relevant criteria for accurate predictions. Rank students according to college preferences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pavan Kirity | All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
